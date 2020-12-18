@@ -13,7 +13,7 @@ from recipe.serializers import TagSerializer
 TAGS_URL = reverse('recipe:tag-list')
 
 
-class PublictagsApiTest(TestCase):
+class PublicTagsApiTest(TestCase):
     """Test the publicly available tags API"""
 
     def setUp(self):
